@@ -1,3 +1,3 @@
 # terraform-oci
 
-Create and manage OCI resources from a json file using terraform
+Create and manage OCI resources from a json blueprint file using terraform
