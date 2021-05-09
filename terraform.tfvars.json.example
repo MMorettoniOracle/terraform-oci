@@ -1,0 +1,33 @@
+{
+  "tenancy_ocid": "YOUR OCID",
+  "compartment_ocid": "YOUR OCID",
+  "user_ocid": "YOUR OCID",
+  "fingerprint": "YOUR FINGERPRINT",
+  "private_key_path": "YOUR KEYPATH",
+  "private_key_password": "YOUR KEY PASSWORD",
+  "home_region": "YOUR REGION, EXAMPLE - us-ashburn-1",
+  "region": "YOUR REGION, EXAMPLE - us-ashburn-1",
+  "app_tag": "Terraform-OCI",
+  "environment": "dev",
+  "vcn": [
+    {
+      "vcn_name": "vcn_test",
+      "vcn_dns_label": "vcntest",
+      "vcn_cidr": "172.16.0.0/16",
+      "compartment_ocid": "",
+      "subnet": [
+        {
+          "subnet_name": "testsubnet1",
+          "subnet_cidr_block": "172.16.1.0/24",
+          "subnet_display_name": "TestSubnet",
+          "subnet_dns_label": "TestSubnet",
+          "subnet_prohibit_public_ip_on_vnic": "true",
+          "oci_core_route_table": null
+        }
+      ]
+    }
+  ]
+}
+
+
+
